@@ -14,7 +14,7 @@ export default function Register() {
     e.preventDefault();
     //post request to backend for register
     try {
-      await axios.post('https://taskmanager2-8.onrender.com/api/auth/register', { name, email, password });
+      await axios.post('https://taskmanager2-9.onrender.com/api/auth/register', { name, email, password });
      toast.success('Login successful');
 setTimeout(() => {
   navigate('/login');

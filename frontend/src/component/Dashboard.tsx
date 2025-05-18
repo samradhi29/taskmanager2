@@ -42,7 +42,7 @@ export default function Dashboard() {
 
   const fetchTasks = async () => {
     try {
-      const res = await axios.get('https://taskmanager2-8.onrender.com/api/tasks', {
+      const res = await axios.get('https://taskmanager2-9.onrender.com/api/tasks', {
         headers: { Authorization: `Bearer ${token}` },
       });
       setTasks(res.data.tasks);
@@ -53,7 +53,7 @@ export default function Dashboard() {
 
   const fetchTaskById = async (id: string) => {
     try {
-      const res = await axios.get(`https://taskmanager2-8.onrender.com/api/tasks/${id}`, {
+      const res = await axios.get(`https://taskmanager2-9.onrender.com/api/tasks/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       setSelectedTask(res.data.task);
@@ -66,7 +66,7 @@ export default function Dashboard() {
   const handleUpdateTask = async (updatedTask: Task) => {
     try {
       const res = await axios.put(
-        `https://taskmanager2-8.onrender.com/${updatedTask._id}`,
+        `https://taskmanager2-9.onrender.com/${updatedTask._id}`,
         updatedTask,
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -84,7 +84,7 @@ export default function Dashboard() {
   const handleDeleteTask = async (id: string) => {
     if (!window.confirm('Are you sure you want to delete this task?')) return;
     try {
-      await axios.delete(`https://taskmanager2-8.onrender.com/api/tasks/${id}`, {
+      await axios.delete(`https://taskmanager2-9.onrender.com/api/tasks/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       alert('Task deleted successfully');
