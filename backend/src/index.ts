@@ -7,10 +7,15 @@ dotenv.config();
 import authroutes from './routes/auth'
 import taskRoutes from './routes/task';
 
+
 const app = express();
 const PORT = process.env.PORT || 4000;
+const allowedOrigins = ['http://localhost:5173'];
 
-app.use(cors());
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true,  
+}));
 app.use(express.json());
 
 // Connect to MongoDB
