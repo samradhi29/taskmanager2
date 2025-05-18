@@ -1,7 +1,7 @@
-# heading1 task manager
+#  task manager
 
 
-# heading4 A full-stack Task Manager web application that allows users to register, log in, and manage their daily tasks efficiently. Built using the **MERN stack** (MongoDB, Express, React, Node.js) with JWT authentication, protected routes, and a clean, modern UI.
+#  A full-stack Task Manager web application that allows users to register, log in, and manage their daily tasks efficiently. Built using the **MERN stack** (MongoDB, Express, React, Node.js) with JWT authentication, protected routes, and a clean, modern UI.
 
 ---
 
