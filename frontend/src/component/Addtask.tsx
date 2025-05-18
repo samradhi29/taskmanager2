@@ -23,7 +23,7 @@ export default function AddTask() {
 
         try {
             await axios.post(
-                'http://localhost:4000/api/tasks',
+                'https://taskmanager2-6.onrender.com/api/tasks',
                 { title, description, status, priority, dueDate: dueDate || undefined },
                 { headers: { Authorization: `Bearer ${token}` } }
             );

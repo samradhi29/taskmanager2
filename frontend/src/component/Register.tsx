@@ -14,7 +14,7 @@ export default function Register() {
     e.preventDefault();
     //post request to backend for register
     try {
-      await axios.post('http://localhost:4000/api/auth/register', { name, email, password });
+      await axios.post('https://taskmanager2-6.onrender.com/api/auth/register', { name, email, password });
       toast.success('Registered successfully');
       navigate('/login');
     } catch (err: any) {

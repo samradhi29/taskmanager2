@@ -13,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     try {
       //sending request for login to backend  api/auth/login
-      const response = await axios.post('http://localhost:4000/api/auth/login', { email, password });
+      const response = await axios.post('https://taskmanager2-6.onrender.com/api/auth/login', { email, password });
       localStorage.setItem('token', response.data.token);
       if (response.data.user) {
         localStorage.setItem('user', JSON.stringify(response.data.user));
