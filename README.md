@@ -7,8 +7,8 @@
 
 #  🔗 Live Demo
 
-- **Frontend (Vercel):** [taskmanager2-dgf4.vercel.app](https://taskmanager2-dgf4.vercel.app)
-- **Backend (Render):** [taskmanager2-6.onrender.com](https://taskmanager2-6.onrender.com)
+- **Frontend (Vercel):** [taskmanager2-dgf4.vercel.app](taskmanager2-4sez.vercel.app)
+- **Backend (Render):** [taskmanager2-6.onrender.com](https://taskmanager2-9.onrender.com)
 
 ---
 
