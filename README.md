@@ -52,3 +52,7 @@
 ## commands 
 ### to run frontend --npm run dev
 ### to run backend  --npm start
+
+### Test credentials:
+ Email: test@example.com
+ Password: test@123
