@@ -148,7 +148,7 @@ export default function Dashboard() {
               {task.title}
             </h3>
             <span
-              className={`inline-block px-3 py-1 rounded-full text-sm font-semibold mb-2 ${priorityColors[task.priority] || 'bg-yellow-500 text-black'
+              className={`inline-block px-3 py-1 rounded-full text-sm font-semibold mb-2 ${priorityColors[task.priority] || 'bg-gray-800 text-white'
                 }`}
             >
               Priority: {task.priority}
