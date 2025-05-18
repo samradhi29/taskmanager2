@@ -5,42 +5,42 @@
 
 ---
 
-# heading1 🔗 Live Demo
+#  🔗 Live Demo
 
 - **Frontend (Vercel):** [taskmanager2-dgf4.vercel.app](https://taskmanager2-dgf4.vercel.app)
 - **Backend (Render):** [taskmanager2-6.onrender.com](https://taskmanager2-6.onrender.com)
 
 ---
 
-# heading2 🚀 Features
+## 🚀 Features
 
 #heading4 Authentication
 - User registration and login
 - JWT-based secure authentication
 - Protected routes with role-based access
 
-#heading4 Task Management
+# Task Management
 - Add new tasks
 - View all tasks
 - Edit/update existing tasks
 - Delete tasks
 
-#heading4💡 Other Highlights
+#💡 Other Highlights
 - Axios used for API communication
 - Responsive layout with Tailwind CSS
 - Gradient background with smooth UI
 
 ---
 
-#heading2 🛠 Tech Stack
+## 🛠 Tech Stack
 
-#heading3  Frontend
+###  Frontend
 - React.js
 -toast
 - Axios
 - Tailwind CSS
 
-#heading4  Backend
+###  Backend
 - Node.js
 - Express.js
 - MongoDB (via Mongoose)
@@ -49,6 +49,6 @@
 
 ---
 
-#heading3 commands 
-#heading4 to run frontend --npm run dev
-#heading4 to run backend  --npm start
+## commands 
+### to run frontend --npm run dev
+### to run backend  --npm start
