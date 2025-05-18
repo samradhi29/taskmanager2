@@ -6,7 +6,7 @@ import Login from './component/Login';
 import Dashboard from './component/Dashboard';
 import AddTask from './component/Addtask';
 import { AuthProvider } from './context/AuthContext';
-import { PrivateRoute } from './component/Privateroute';
+import { PrivateRoute } from './component/PrivateRoute';
 
 const App = () => {
   return (
