@@ -18,8 +18,10 @@ export default function Login() {
       if (response.data.user) {
         localStorage.setItem('user', JSON.stringify(response.data.user));
       }
-      toast.success('Login successful');
-      navigate('/dashboard');
+toast.success('Login successful');
+setTimeout(() => {
+  navigate('/dashboard');
+}, 1000);
     } catch (error: any) {
       console.error('Login error:', error);
       toast.error(error.response?.data?.message || 'Login failed');

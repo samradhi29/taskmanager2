@@ -29,8 +29,8 @@ const priorityColors: Record<string, string> = {
 };
 
 const statusColors: Record<string, string> = {
-  done: 'text-green-400 line-through',
-  pending: 'text-yellow-400 font-semibold',
+  completed: '',
+  pending: ''
 };
 
 export default function Dashboard() {
