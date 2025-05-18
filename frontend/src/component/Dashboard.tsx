@@ -66,7 +66,7 @@ export default function Dashboard() {
   const handleUpdateTask = async (updatedTask: Task) => {
     try {
       const res = await axios.put(
-        `https://taskmanager2-9.onrender.com/${updatedTask._id}`,
+        `https://taskmanager2-9.onrender.com/api/tasks/${updatedTask._id}`,
         updatedTask,
         {
           headers: { Authorization: `Bearer ${token}` },
@@ -105,7 +105,7 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-purple-950 to-black text-white p-10 max-w-6xl mx-auto font-sans select-none">
+    <div className="w-full h-full  bg-gradient-to-br from-purple-950 to-black text-white p-10 max-w-6xl mx-auto font-sans select-none">
       <div className="flex justify-between items-center mb-14">
         {/* Left side: Logout button and heading */}
         <div className="flex items-center gap-4">
