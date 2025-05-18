@@ -105,7 +105,7 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-950 to-black text-white p-10 max-w-6xl mx-auto font-sans select-none">
+    <div className="w-full min-h-screen bg-gradient-to-br from-purple-950 to-black text-white p-10 max-w-6xl mx-auto font-sans select-none">
       <div className="flex justify-between items-center mb-14">
         {/* Left side: Logout button and heading */}
         <div className="flex items-center gap-4">
@@ -148,7 +148,7 @@ export default function Dashboard() {
               {task.title}
             </h3>
             <span
-              className={`inline-block px-3 py-1 rounded-full text-sm font-semibold mb-2 ${priorityColors[task.priority] || 'bg-gray-800 text-white'
+              className={`inline-block px-3 py-1 rounded-full text-sm font-semibold mb-2 ${priorityColors[task.priority] || 'bg-gray-600 text-white'
                 }`}
             >
               Priority: {task.priority}
